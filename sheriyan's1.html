@@ -6,103 +6,122 @@
     <title>Day-2</title>
 </head>
 <body>
-    <form action="">
-        <!--<input type="text"> defines a single-line text input field-->
-        <input type="text" placeholder="Frst name">
-        <input type="text" placeholder="Middle name">
-        <input type="text" placeholder="Last name">
-        <br><br>
+    <!--Lists are : (1)Ordered list (2)UnOrdered list (3)Description list-->
+    <!--Ordered list for numbers (default) (1)-->
+    <ol>
+        <!--li is a list item-->
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Guva</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ol>
+    <!--Ordered list for uppercase letters (A)-->
+    <ol type="A">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>Lichi</li>
+        <li>Suagarcane</li>
+        <li>Guva</li>
+    </ol>
+    <!--Ordered list for lowercase letters (a)-->
+    <ol type="a">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>Lichi</li>
+        <li>Suagarcane</li>
+        <li>Guva</li>
+    </ol>
+    <!--Ordered list for uppercase Roman numerals (I)-->
+    <ol type="I">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>Lichi</li>
+        <li>Suagarcane</li>
+        <li>Guva</li>
+    </ol>
+    <!--Ordered list for lowercase Roman numerals (i)-->
+    <ol type="i">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        <li>Lichi</li>
+        <li>Suagarcane</li>
+        <li>Guva</li>
+    </ol>
+    <br/>
+    <br/>
 
-        <!--The <input type="email"> is used for input fields that should contain an e-mail address-->
-        <input type="email" placeholder="Email">
-        <br><br>
+    <!--Unordered lists-->
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Rice</li>
+        <li>Suagar</li>
+        <li>Sugarcane</li>
+        <li>Grapes</li>
+    </ul>
+    <!--Here using circle Unordered lists-->
+    <ul>
+        <li type="circle">Circle</li>
+        <li type="circle">Circle</li>
+        <li type="circle">Circle</li>
+        <li type="circle">Circle</li>
+        <li type="circle">Circle</li>
+    </ul>
+    <!--Here using sqaure Unordered lists-->
+    <ul>
+        <li type="square">Square</li>
+        <li type="square">Square</li>
+        <li type="square">Square</li>
+        <li type="square">Square</li>
+        <li type="square">Square</li>
+    </ul>
+    <!--Here using disc Unordered lists-->
+    <ul>
+        <li type="disc">Disc</li>
+        <li type="disc">Disc</li>
+        <li type="disc">Disc</li>
+        <li type="disc">Disc</li>
+        <li type="disc">Disc</li>
+    </ul>
+    <!--Here using none Unordered lists-->
+    <ul>
+        <li type="none">None</li>
+        <li type="none">None</li>
+        <li type="none">None</li>
+        <li type="none">None</li>
+        <li type="none">None</li>
+    </ul>
+    <br/>
+    <br/>
 
-        <!--<input type="checkbox"> defines a checkbox-->
-        <input type="password" placeholder="Password">
-        <br><br>
+    <!--Description lists-->
+    <dl>
+        <dt>Apple 14:</dt>
+        <dd>Ceramic Shield front</dd>
+        <dd>Glass back and aluminium design</dd>
+        <dd>Capacity 512</dd>
+    </dl>
+    <hr>
 
-        <!--Input type checkboox defines a checkbox-->
-        <input type="checkbox">
-        <br><br>
+    <!--This is for Image Self Closing tag, Attribute-->
+    <!--1st way using image upload-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfbRia-RHZbVqF8xyS8XHQzM9g-7wQSCk4Q&usqp=CAU" alt="HTMLImage" width="300px" height="200px"/>
+    <br>
+    <!--2nd way using image upload-->
+    <img src="assets/htmlimages.jpg" alt="htmlImage" width="300px" height="200px"/>
+    <hr>
 
-        <!--<input type="radio"> defines a radio button-->
-        <input name="gender" type="radio">Male
-        <input name="gender" type="radio">Female
-        <input name="gender" type="radio">Others
-        <br><br>
-
-        <!--The <input type="date"> is used for input fields that should contain a date-->
-        <input type="date">
-        <br><br>
-
-        <!--The <input type="color"> is used for input fields that should contain a color-->
-        <input type="color">
-        <br><br>
-
-        <!--The <input type="datetime"> specifies a date and time input field, with no time zone.-->
-        <input type="datetime" placeholder="DateTime">
-        <br><br>
-
-        <!--The <input type="datetime-local"> specifies a date and time input field, with no time zone.-->
-        <input type="datetime-local">
-        <br><br>
-
-        <!--The <input type="file"> defines a file-select field and a "Browse" button for file uploads-->
-        <input type="file">
-        <br><br>
-
-        <!--The <input type="hidden"> defines a hidden input field (not visible to a user)-->
-        <input type="hidden">
-        <br><br>
-
-        <!--The <input type="image"> defines an image as a submit button-->
-        <input type="image">
-        <br><br>
-
-        <!--The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100-->
-        <input type="range">
-        <br><br>
-
-        <!--<input type="submit"> defines a button for submitting form data to a form-handler-->
-        <input type="submit">
-        <input type="submit" value="Login">
-        <br><br>
-
-        <!--The <input type="month"> allows the user to select a month and year-->
-        <input type="month">
-        <br><br>
-
-        <!--The <input type="number"> defines a numeric input field.-->
-        <input type="number">
-        <br><br>
-
-        <!--<input type="reset"> defines a reset button that will reset all form values to their default values-->
-        <input type="reset">
-        <br><br>
-
-        <!--The <input type="search"> is used for search fields (a search field behaves like a regular text field)-->
-        <input type="search" placeholder="Search">
-        <br><br>
-
-        <!--The <input type="tel"> is used for input fields that should contain a telephone number-->
-        <input type="tel" placeholder="Telephone">
-        <br><br>
-
-        <!--The <input type="time"> allows the user to select a time (no time zone)-->
-        <input type="time">
-        <br><br>
-
-        <!--The <input type="url"> is used for input fields that should contain a URL address.-->
-        <input type="url" placeholder="URL Link">
-        <br><br>
-
-        <!--The <input type="week"> allows the user to select a week and year-->
-        <input type="week">
-        <br><br>
-
-        <!--The <input type="month"> allows the user to select a month and year-->
-        <input type="month">
-    </form>
+    <!--Here using Anchor tag for Hyperlinking attribute-->
+    <a href="https://www.google.com">Google</a>
+    <br>
+    <a href="https://www.facebook.com">facebook</a>
+    <br>
+    <a href="https://www.Amazon.com" target="_blank">Amazon</a>   
 </body>
 </html>
 
